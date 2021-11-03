@@ -1,0 +1,12 @@
+.Header {
+  box-shadow: 0px 3px 3px gray;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.Header h1 {
+  font-family: "Caveat", cursive;
+  color: #0e3c7e;
+}

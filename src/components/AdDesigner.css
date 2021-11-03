@@ -1,0 +1,48 @@
+.AdDesigner {
+  font-family: sans-serif;
+}
+
+.AdDesigner .ad {
+  box-shadow: 0 0 6px gray;
+  border: 2px solid #222;
+  width: fit-content;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Caveat", cursive;
+}
+
+.AdDesigner .vote {
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.AdDesigner .flavor {
+  font-family: "Caveat", cursive;
+  padding: 5px;
+}
+
+.AdDesigner button {
+  background-color: #0e3c7e;
+  color: white;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.AdDesigner button:disabled {
+  background-color: gray;
+}
+
+.AdDesigner .dark {
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+
+.AdDesigner .button-container {
+  display: flex;
+}

@@ -1,0 +1,16 @@
+.App .main {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.App .ads-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 768px) {
+  .App .main {
+    flex-direction: row;
+  }
+}

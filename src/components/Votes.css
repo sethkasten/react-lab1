@@ -1,0 +1,28 @@
+.Votes {
+  font-family: sans-serif;
+}
+
+.Votes button {
+  background-color: #0e3c7e;
+  color: white;
+  margin: 0 5px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+.Votes .bar {
+  height: 20px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.Votes .flavor-title {
+  margin: 5px;
+}
+
+@media screen and (min-width: 768px) {
+  .Votes {
+    padding: 20px;
+  }
+}
